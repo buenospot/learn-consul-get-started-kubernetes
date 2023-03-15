@@ -13,13 +13,13 @@ variable "vpc_region" {
 variable "consul_version" {
   type        = string
   description = "The Consul version"
-  default     = "v1.14.4"
+  default     = "v1.15.1"
 }
 
 variable "api_gateway_version" {
   type        = string
   description = "The Consul API gateway CRD version to use"
-  default     = "0.5.1"
+  default     = "0.5.2"
 }
 
 resource "random_string" "suffix" {
