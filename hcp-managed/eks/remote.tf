@@ -5,7 +5,6 @@ terraform {
 
     workspaces {
       name = "buensalido-consul-demo"
-      tags = ["networking", "source:cli"]
     }
   }
 }
